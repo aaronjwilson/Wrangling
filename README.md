@@ -1,5 +1,5 @@
 # Wrangling
-Musings on Data munging
+Musings on Data munging and the development of ETL pipelines from biological data sources.
 https://upmath.me/
 
 some thoughts on the process of getting data into a format that works best for getting the most information (graphical output, EDA, statistical measures)
