@@ -21,7 +21,7 @@ For this part i will focus on developments in excel vbscript but future discussi
 R/Python<br>
 Macros made in javascript for googlesheets or O365.
 
-###VBSCIPTING
+###VBSCIPTING<br>
 when thinking about the tools that i use on the regular to bring data into a format that allows the easiest and most efficient method of getting the most amount of detail. timing is of the ssesnce. Excel is a great program. extended with visual basic is even better. <br>
 
 
