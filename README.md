@@ -18,7 +18,7 @@ stateDiagram
 ```
 
 
-We will follow the first part of the below flow chart: 
+We will follow the first part of the below flow chart using the excel spreadsheet from the machine output paired with a VBscript to transform the data into a structure suitable for db schema: 
 ```mermaid
 graph LR
 A[Excel] -->|VBA| B(Googlesheets)
@@ -32,7 +32,7 @@ This will arrive at the destination of a dataset that is analyzed, aggregated, w
 <p align="center">
 <img title="Endpoint titer graph in R" alt="Alt text" src="graphic.png" width="500" height="400" align="center">
 </p>
-
+To get a sense of the remaining steps visit the dose response curve calculation steps in the ELISA_DRC section.
 
 For this part i will focus on developments in excel vbscript but future discussions will follow the development of bespoke methods using alternative scripting/programming languages such as: 
 
