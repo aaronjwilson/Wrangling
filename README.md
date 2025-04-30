@@ -16,6 +16,24 @@ stateDiagram
   
    Fit_software_to_data  --> [*]
 ```
+
+
+We will follow the first part of the below flow chart: 
+```mermaid
+graph LR
+A[Excel] -->|VBA| B(Googlesheets)
+    B --> C{R: DRC}
+    C -->|Error| D[Optimize]
+    C -->|Endpoint| E[Labkey]
+```
+
+This will arrive at the destination of a dataset that is analyzed, aggregated, web accessible data set with advanced agile graphical outputs like the following: 
+
+<p align="center">
+<img title="Endpoint titer graph in R" alt="Alt text" src="graph.png" width="300" height="100" align="center">
+</p>
+
+
 For this part i will focus on developments in excel vbscript but future discussions will follow the development of bespoke methods using alternative scripting/programming languages such as: 
 
 R/Python<br>
