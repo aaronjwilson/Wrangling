@@ -32,6 +32,9 @@ Googlesheets macros.
 <img title="Removed Data from file" alt="Alt text" src="adjusted.png" width="300" height="100" align="center">
 </p>
 
+
+want turn the data into this: 
+
 VBscript for an excel macro to interact (ne deal) with the elisa data
 ```vbscript
 Sub Gen5Row()
