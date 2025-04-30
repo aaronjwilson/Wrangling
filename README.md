@@ -94,7 +94,7 @@ End Sub
 
 
 ##LOOK HERE FOR THE SUBROUTINE USED TWICE ABOVE
-```
+```vbscript
 'Attribute VB_Name = "DelEmptyRow"
 Sub DelEmptyRow()
 Rng = Selection.Rows.Count
@@ -111,7 +111,7 @@ Application.ScreenUpdating = True
 End Sub
 ```
 Sandbox to test out nomenclature subroutine.  Data ended up being so different between studies the manual method worked the best. 
-```
+```vbscript
 Sub FileNomen()
 'Range("A2") = Mid(ThisWorkbook.Name, 10, 15)
 'Range("B2") = Mid(ThisWorkbook.Name, 1, 8)
