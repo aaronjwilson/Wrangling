@@ -22,7 +22,7 @@ R/Python<br>
 Macros made in javascript for googlesheets or O365.
 
 ###VBSCIPTING<br>
-when thinking about the tools that i use on the regular to bring data into a format that allows the easiest and most efficient method of getting the most amount of detail. timing is of the ssesnce. Excel is a great program. extended with visual basic is even better. <br>
+when thinking about the tools that i use on the regular to bring data into a format that allows the easiest and most efficient method of getting the most amount of detail. timing is of the ssesnce. Excel is a great program. extended with visual basic is even better. looking at the structure of commonly derived and well mapped ELISA data the excel spreadsheets from BioTeks Gen5 software look like the following. <br>
 
 
 <p align="center">
@@ -35,8 +35,9 @@ when thinking about the tools that i use on the regular to bring data into a for
 <img title="Removed Data from file" alt="Alt text" src="adjusted.png" width="300" height="100" align="center">
 </p>
 
+A great software when properly applied but looking at biological data in a siloed fashion is decontextualized and does not capture the essence of labeled, parsed, and facetted longitudinal data. The full picture emerges from aggregation and software applications such as graphpad prism work very well for visualizing this but the software is costly and neglects advances in database technology paired with a programmatic language like R or Python. 
 
-want create vbscript to combine the raw and categorical and output a database ready structure like this: 
+To begin the tranformation: we want create vbscript to combine the raw and categorical and output a database ready structure like this: 
 <p align="center">
 <img title="Transformation" alt="Alt text" src="transform.png" width="300" height="100" align="center">
 </p>
