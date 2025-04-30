@@ -1,8 +1,8 @@
-# Wrangling or i didn't know i had data stack capabilities.
+### Wrangling or i didn't know i had data stack capabilities.
+Musings on Data munging and the development of ETL pipelines from biological data sources.
+
 life in a biological lab is more than just the data and the insights developed as there are navigations that go unspoken about the data: the quality, the management and the personalities that control it. the stochasticity of the 'navigations' require advanced maths to even begin to address the complexity. 
 
-Musings on Data munging and the development of ETL pipelines from biological data sources.
-https://upmath.me/
 
 some thoughts on the process of getting data into a format that works best for getting the most information (graphical output, EDA, statistical measures)
 
@@ -110,6 +110,7 @@ Next i
 Application.ScreenUpdating = True
 End Sub
 ```
+Sandbox to test out nomenclature subroutine.  Data ended up being so different between studies the manual method worked the best. 
 ```
 Sub FileNomen()
 'Range("A2") = Mid(ThisWorkbook.Name, 10, 15)
@@ -120,3 +121,11 @@ Sub FileNomen()
 
 End Sub
 ```
+
+
+
+
+links: 
+https://upmath.me/
+
+
