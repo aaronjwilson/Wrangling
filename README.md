@@ -16,12 +16,15 @@ stateDiagram
   
    Fit_software_to_data  --> [*]
 ```
+For this part i will focus on developments in excel vbscript but future discussions will follow the development of bespoke methods using alternative scripting/programming languages such as: 
+
+R/Python<br>
+Macros made in javascript for googlesheets or O365.
+
+###VBSCIPTING
 when thinking about the tools that i use on the regular to bring data into a format that allows the easiest and most efficient method of getting the most amount of detail. timing is of the ssesnce. Excel is a great program. extended with visual basic is even better. <br>
 
-GraphPad<br>
-R<br>
-Python<br>
-Googlesheets macros.
+
 <p align="center">
 <img title="Raw Data from file" alt="Alt text" src="raw.png" width="300" height="100" align="center">
 </p>
