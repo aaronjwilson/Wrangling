@@ -101,7 +101,7 @@ Rng = Selection.Rows.Count
 ActiveCell.Offset(0, 0).Select
 Application.ScreenUpdating = False
 For i = 1 To Rng
-If ActiveCell.Value = "" Then    'You can replace "" with 0 to delete rows with 'the value zero
+If ActiveCell.Value = "" Then 
 Selection.EntireRow.Delete
 Else
 ActiveCell.Offset(1, 0).Select
