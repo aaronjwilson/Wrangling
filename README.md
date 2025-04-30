@@ -33,17 +33,24 @@ Googlesheets macros.
 </p>
 
 
-want turn the data into this: 
+want create vbscript to combine the raw and categorical and output a database ready structure like this: 
+<p align="center">
+<img title="Transformation" alt="Alt text" src="transform.png" width="300" height="100" align="center">
+</p>
 
-VBscript for an excel macro to interact (ne deal) with the elisa data
+
+
+To begin the work the structure of the data must be analyzed and either established or created. VBscript for an excel macro to interact with the elisa data. Started with removal of empty rows. Nonlinear program with the function created in a subroutine pitched well below the machination work. 
 ```vbscript
 Sub Gen5Row()
 
 ' loopish Macro
 Range("A1:A1700").Select
 Application.Run "DelEmptyRow"
+```
 
-
+Next define a starting point and let the voodoo happen on loop. 
+```vbscript
 Range("B3").Select
 Do Until IsEmpty(ActiveCell.Offset(22, -1))
     ActiveCell.Range("A1,A4,A7,A10,A13,A16,A19,A22").Select
@@ -63,12 +70,16 @@ Do Until IsEmpty(ActiveCell.Offset(22, -1))
         Next i
    ActiveCell.Offset(12, -12).Range("A1").Select
 Loop
-
+```
+Another reference to the deletion of empty rows.
+```vbscript
     Range("O1:O1500").Select
     Application.Run "DelEmptyRow"
+```
 
 
-`Nomenclature built around direct naming and the name built into the sheet tab
+Nomenclature built around direct naming and the name built into the sheet tab
+```vbscript
 Range("A1").EntireRow.Insert
 Range("A:C").EntireColumn.Insert
 Range("A1")="Protein"
@@ -81,6 +92,8 @@ Range("C2:C30") = ActiveSheet.Name
 End Sub
 ```
 
+
+##LOOK HERE FOR THE SUBROUTINE USED TWICE ABOVE
 ```
 'Attribute VB_Name = "DelEmptyRow"
 Sub DelEmptyRow()
