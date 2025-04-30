@@ -22,7 +22,15 @@ GraphPad<br>
 R<br>
 Python<br>
 Googlesheets macros.
-
+<p align="center">
+<img title="Raw Data from file" alt="Alt text" src="raw.png" width="300" height="100" align="center">
+</p>
+<p align="center">  
+<img title="Categorical Data from file" alt="Alt text" src="categorical.png" width="300" height="300" align="center">
+</p>
+<p align="center">
+<img title="Removed Data from file" alt="Alt text" src="adjusted.png" width="300" height="100" align="center">
+</p>
 
 VBscript for an excel macro to interact (ne deal) with the elisa data
 ```vbscript
