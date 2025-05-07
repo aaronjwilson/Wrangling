@@ -18,7 +18,7 @@ stateDiagram
 ```
 
 
-We will follow the first part of the below flow chart using the excel spreadsheet from the machine output paired with a VBscript to transform the data into a structure suitable for db schema: 
+We will follow the first part of the below flow chart using the excel spreadsheet from the machine output paired with a [VBscript to transform](https://github.com/aaronjwilson/Wrangling/blob/main/ELISA_VBScript.md) the data into a structure suitable for db schema: 
 ```mermaid
 graph LR
 A[Excel] -->|VBA| B(Googlesheets)
