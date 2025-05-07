@@ -30,7 +30,7 @@ A[Excel] -->|VBA| B(Googlesheets)
 This will arrive at the destination of a dataset that is analyzed, aggregated, web accessible data set with advanced agile graphical outputs like the following: 
 
 <p align="center">
-<img title="Endpoint titer graph in R" alt="Alt text" src="graphic.png" width="500" height="400" align="center">
+<img title="Endpoint titer graph in R" alt="Alt text" src="images/graphic.png" width="500" height="400" align="center">
 </p>
 To get a sense of the remaining steps visit the dose response curve calculation steps in the [ELISA_DRC](https://github.com/aaronjwilson/immuno_data_analysis/blob/master/ELISA_DRC.md)
 
