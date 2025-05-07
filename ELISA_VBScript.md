@@ -13,7 +13,7 @@ A[Excel] -->|VBA| B(Googlesheets)
 This will arrive at the destination of a dataset that is analyzed, aggregated, web accessible data set with advanced agile graphical outputs like the following: 
 
 <p align="center">
-<img title="Endpoint titer graph in R" alt="Alt text" src="graphic.png" width="500" height="400" align="center">
+<img title="Endpoint titer graph in R" alt="Alt text" src="images/graphic.png" width="500" height="400" align="center">
 </p>
 To get a sense of the remaining steps visit the dose response curve calculation steps in the ELISA_DRC section.
 
@@ -27,20 +27,20 @@ when thinking about the tools that i use on the regular to bring data into a for
 
 
 <p align="center">
-<img title="Raw Data from file" alt="Alt text" src="raw.png" width="300" height="100" align="center">
+<img title="Raw Data from file" alt="Alt text" src="images/raw.png" width="300" height="100" align="center">
 </p>
 <p align="center">  
-<img title="Categorical Data from file" alt="Alt text" src="categorical.png" width="300" height="300" align="center">
+<img title="Categorical Data from file" alt="Alt text" src="images/categorical.png" width="300" height="300" align="center">
 </p>
 <p align="center">
-<img title="Removed Data from file" alt="Alt text" src="adjusted.png" width="300" height="100" align="center">
+<img title="Removed Data from file" alt="Alt text" src="images/adjusted.png" width="300" height="100" align="center">
 </p>
 
 A great software when properly applied but looking at biological data in a siloed fashion is decontextualized and does not capture the essence of labeled, parsed, and facetted longitudinal data. The full picture emerges from aggregation and software applications such as graphpad prism work very well for visualizing this but the software is costly and neglects advances in database technology paired with a programmatic language like R or Python. 
 
 To begin the tranformation: we want create vbscript to combine the raw and categorical and output a database ready structure like this: 
 <p align="center">
-<img title="Transformation" alt="Alt text" src="transform.png" width="300" height="100" align="center">
+<img title="Transformation" alt="Alt text" src="images/transform.png" width="300" height="100" align="center">
 </p>
 
 
